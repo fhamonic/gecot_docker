@@ -15,15 +15,15 @@ RUN git clone https://github.com/fhamonic/mippp.git
 RUN git clone https://github.com/fhamonic/gecot.git
 
 WORKDIR /melon
-RUN git checkout da5e9ca
+RUN git checkout cbcf358
 RUN conan create . -u -b=missing -vv
 
 WORKDIR /mippp
-RUN git checkout 392829f
+RUN git checkout e5b5f71
 RUN conan create . -u -b=missing -vv
 
 WORKDIR /gecot
-RUN git checkout 8b21c4e
+RUN git checkout 32982d2
 RUN conan build . -of=build -b=missing -vv
 
 WORKDIR /

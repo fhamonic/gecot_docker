@@ -12,8 +12,6 @@ Dockerfile for compiling GECOT (https://github.com/fhamonic/gecot)
 
 Download and install Docker : https://docs.docker.com/desktop/setup/install/windows-install/
 
-    sudo apt update && sudo apt install make docker docker-buildx-plugin
-
 ### MacOS
 
     brew install make docker docker-buildx

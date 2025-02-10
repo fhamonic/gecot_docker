@@ -12,8 +12,10 @@ Dockerfile for compiling GECOT (https://github.com/fhamonic/gecot)
 
     brew install make docker docker-buildx
 
-## Create and run the Docker container with
+## Clone and run the Docker container with
 
+    git clone https://github.com/fhamonic/gecot_docker.git
+    cd gecot_docker
     make
 
 ## Then run GECOT with
